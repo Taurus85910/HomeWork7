@@ -63,12 +63,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\CollectCoin.cs" />
-    <Compile Include="Assets\Death.cs" />
-    <Compile Include="Assets\Go.cs" />
-    <Compile Include="Assets\GoWay.cs" />
-    <Compile Include="Assets\Rotation.cs" />
-    <Compile Include="Assets\SpawnCoin.cs" />
+    <Compile Include="Assets\Scripts\Coin.cs" />
+    <Compile Include="Assets\Scripts\CollectCoin.cs" />
+    <Compile Include="Assets\Scripts\Death.cs" />
+    <Compile Include="Assets\Scripts\Movement.cs" />
+    <Compile Include="Assets\Scripts\Patrolling.cs" />
+    <Compile Include="Assets\Scripts\Robber.cs" />
+    <Compile Include="Assets\Scripts\Rotation.cs" />
+    <Compile Include="Assets\Scripts\SpawnCoin.cs" />
     <Reference Include="UnityEngine">
       <HintPath>G:/Un/2019.4.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

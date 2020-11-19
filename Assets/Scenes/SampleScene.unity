@@ -992,7 +992,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _coin: {fileID: 7461307698929758216, guid: 4cc9cfe98691f62428e64abe825f040f, type: 3}
-  _camera: {fileID: 519420031}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -1637,6 +1636,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _way: {fileID: 152971776}
   _speed: 2
+--- !u!114 &1038510749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1038510742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04b33ca5ba566ed4b81dccb277730fb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1152444358
 GameObject:
   m_ObjectHideFlags: 0
@@ -1910,6 +1921,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _way: {fileID: 1252029337}
   _speed: 2
+--- !u!114 &1371175767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1371175760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04b33ca5ba566ed4b81dccb277730fb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1392245641
 GameObject:
   m_ObjectHideFlags: 0
