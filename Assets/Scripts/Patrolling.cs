@@ -9,6 +9,7 @@ public class Patrolling : MonoBehaviour
 
     private Transform[] _points;
     private int _currentPoint;
+
     private void Start()
     {
         _points = new Transform[_way.childCount];
@@ -17,6 +18,7 @@ public class Patrolling : MonoBehaviour
             _points[i] = _way.GetChild(i);
         }
     }
+
     private void Update()
     {
         Transform target = _points[_currentPoint];

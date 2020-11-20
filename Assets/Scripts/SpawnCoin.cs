@@ -5,12 +5,12 @@ using UnityEngine.UIElements;
 
 public class SpawnCoin : MonoBehaviour
 {
-    [SerializeField] private GameObject _coin;   
-    private Vector3 _size;
+    [SerializeField] private GameObject _coin;
+    [SerializeField] private float _delay;
+    [SerializeField] private Vector3 _spawnSize;
 
     private void Start()
     {
-        _size = new Vector3(5f,4f,0f);
         StartCoroutine(Spawn());
     }
 
@@ -18,9 +18,9 @@ public class SpawnCoin : MonoBehaviour
     {      
         while (true)
         {
-            Vector3 randomPosition = new Vector3(Random.Range(-_size.x, _size.x), Random.Range(-_size.y, _size.y), Random.Range(-_size.z, _size.z));
+            Vector3 randomPosition = new Vector3(Random.Range(-_spawnSize.x, _spawnSize.x), Random.Range(-_spawnSize.y, _spawnSize.y), Random.Range(-_spawnSize.z, _spawnSize.z));
             Instantiate(_coin,randomPosition,Quaternion.identity);
-            yield return new WaitForSeconds(2);
+            yield return new WaitForSeconds(_delay);
         }
     }
 }
