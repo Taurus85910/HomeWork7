@@ -14,6 +14,7 @@ public class Movement : MonoBehaviour
 
     private void Update()
     {
+<<<<<<< HEAD
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.W))
         {
             _animator.SetBool("IsGoing", true);
@@ -22,6 +23,14 @@ public class Movement : MonoBehaviour
                 transform.Translate(0, _speed * Time.deltaTime, 0);
             }
 
+=======
+     if(Input.GetKey(KeyCode.W))
+     {
+            _animator.SetBool("IsGoing",true);
+            transform.Translate(0,_speed * Time.deltaTime,0);
+            
+     }        
+>>>>>>> acfa4803b39231f4b2c283164270024830d029aa
             if (Input.GetKey(KeyCode.A))
             {
                 transform.rotation = new Quaternion(0, 180, 0, 0);               
