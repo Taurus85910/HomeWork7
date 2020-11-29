@@ -992,6 +992,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _coin: {fileID: 7461307698929758216, guid: 4cc9cfe98691f62428e64abe825f040f, type: 3}
+  _delay: 2
+  _spawnSize: {x: 5, y: 4, z: 0}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0

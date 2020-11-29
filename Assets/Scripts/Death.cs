@@ -9,12 +9,6 @@ public class Death : MonoBehaviour
         if (collision.TryGetComponent<Robber>(out Robber robber))
         {
             Destroy(gameObject);
-            Debug.Log("Вы умерли!");
         }
-    }
-    private void OnBecameInvisible()
-    {
-        Destroy(gameObject);
-        Debug.Log("Вы умерли!");
     }
 }

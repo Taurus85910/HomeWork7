@@ -12,7 +12,6 @@ public class CollectCoin : MonoBehaviour
         {
             Destroy(collision.gameObject);
             _coinCount ++;
-            Debug.Log($"{_coinCount} Монет");
         }
     }
 }
